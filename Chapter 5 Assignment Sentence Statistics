@@ -1,0 +1,22 @@
+#Maurice Koh
+#zhi.koh1@marist.edu
+#This assgnment takes a sentence and calculates a variety of statistics
+#1. no.characters
+#2. no. words
+#3. average number of word length
+
+
+def main():
+    string= input("Please enter the sentence: ")
+    print()
+    #number of characters
+    character=len(string)
+    print("The number of characters: ", character)
+    #number of words
+    word=len(string.split())
+    print("The number of words: ", word)
+    #average word length = total characters/ number of words in sentence
+    average= character/word
+    print("The average word lenght: ", average)
+
+main()
